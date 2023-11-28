@@ -64,5 +64,8 @@ Backup of *.doc*
 *.~vsd*
 
 #Specific files in 'Application' folder
-Applications/TimeLapse/**/*.JPG
-Applications/TimeLapse/**/*.jpg
+AIML09/*.gz
+AIML09/t10k-images-idx3-ubyte/t10k-images-idx3-ubyte
+AIML09/t10k-labels-idx1-ubyte/t10k-labels-idx1-ubyte
+AIML09/train-images-idx3-ubyte/train-images-idx3-ubyte
+AIML09/train-labels-idx1-ubyte/train-labels-idx1-ubyte
