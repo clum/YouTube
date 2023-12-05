@@ -37,8 +37,15 @@ octave-workspace
 # Data
 *.csv
 
-#mat files
+# mat files
 *.mat
+
+# images/movies
+*.png
+*.jpg
+*.mp4
+*.avi
+
 
 #----------------------------
 #Microsoft Office
@@ -62,7 +69,3 @@ Backup of *.doc*
 
 # Visio autosave temporary files
 *.~vsd*
-
-#Specific files in 'Application' folder
-Applications/TimeLapse/**/*.JPG
-Applications/TimeLapse/**/*.jpg
