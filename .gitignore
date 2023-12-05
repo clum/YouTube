@@ -46,7 +46,6 @@ octave-workspace
 *.mp4
 *.avi
 
-
 #----------------------------
 #Microsoft Office
 #----------------------------
@@ -70,7 +69,7 @@ Backup of *.doc*
 # Visio autosave temporary files
 *.~vsd*
 
-#Specific files in 'Application' folder
+# files in specific folders
 AIML09/*.gz
 AIML09/t10k-images-idx3-ubyte/t10k-images-idx3-ubyte
 AIML09/t10k-labels-idx1-ubyte/t10k-labels-idx1-ubyte
