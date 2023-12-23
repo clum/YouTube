@@ -1,0 +1,1 @@
+'Quaternions.pdf' was obtained from http://www.tu-berlin.de/fileadmin/fg169/miscellaneous/Quaternions.pdf
