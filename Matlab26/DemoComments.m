@@ -1,6 +1,6 @@
 %Demonstrate using comments in Matlab.
 %
-%This script accompanies the YouTube video at TBD.
+%This script accompanies the YouTube video at https://youtu.be/x6qkmxxMKEw.
 %
 %Christopher Lum
 %lum@uw.edu
