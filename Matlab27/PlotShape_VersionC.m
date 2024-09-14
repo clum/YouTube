@@ -9,7 +9,7 @@ function [A] = PlotShape_VersionC(varargin)
 %   above but uses the specified SIZE, COLOR, and LINEWIDTH.
 %
 %INPUT:     -SHAPE: char array denoting the shape
-%           -X:     x location
+%           -X:     x locat ion
 %           -Y:     y location
 %           -SIZE:  size of the shape
 %           -COLOR: 1x3 vector denoting color
