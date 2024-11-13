@@ -1,0 +1,1 @@
+See https://github.com/clum/YouTube/tree/main/PDEs06 for lecture notes.
