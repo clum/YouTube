@@ -32,7 +32,7 @@ sample_time = 0.05;
 
 x0 = [200;200;0;0;0;0];
 
-t_final = 1200;
+t_final = 600;
 deltaTMax = 0.05;
 
 %Setup a flight route
