@@ -27,6 +27,12 @@ close all
 simulinkModelName = 'RCAMDemo_Interface.slx';
 
 %FILL ME IN
+lat0 = deg2rad(ConvertLatLonDegMinSecToDecimal(47,31,04.37));    %Museum of Flight
+lon0 = deg2rad(ConvertLatLonDegMinSecToDecimal(-122,17,46.86));  %Museum of Flight
+h0 = 500;
+
+Xgeodetic0 = [lat0;lon0;h0];            %Initial position and altitude
+Xned0 = [0;0;-h0];
 
 simulation.t_final                                                      = 60;           %final time of sim
 simulation.sample_time                                                  = 0.05;
