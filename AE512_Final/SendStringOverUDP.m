@@ -28,6 +28,7 @@ function [] = SendStringOverUDP(varargin)
 %05/04/12: Created
 %08/27/15: Updated for local host operations
 %06/02/20: Removed dependency on UDP Toolbox
+%01/04/24: Minor whitespace updates
 
 %----------------------OBTAIN USER PREFERENCES-----------------------------
 switch nargin
@@ -49,7 +50,6 @@ switch nargin
         error('Invalid number of inputs');
 end
 
-
 %-----------------------CHECKING DATA FORMAT-------------------------------
 % STR
 
@@ -59,10 +59,8 @@ end
 
 % DEBUG
 
-
 %-------------------------BEGIN CALCULATIONS-------------------------------
 %Setup a UDP port
-
 if(DEBUG)
     disp(['Setting up udpsocket on port #',num2str(PORT_NUMBER),' ...'])
 end

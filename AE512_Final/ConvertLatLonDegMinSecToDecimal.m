@@ -6,17 +6,18 @@ function [varargout] = ConvertLatLonDegMinSecToDecimal(varargin)
 %   converts the lat/lon coordinate given in DEGREES, MINUTES, SECONDS to
 %   the equivalent DECIMAL value.
 %
-%
 %INPUT:     -DEGREES:       degrees (integer in range [-180,180] )
 %           -MINUTES:       minutes (integer in range (-60, 60) )
 %           -SECONDS        seconds (decimal in range (-60, 60) )
 %
-%OUTPUT:    -COORDINATE:    lat/lon coordinate in decimal form
+%OUTPUT:    -COORDINATE:    lat/lon coordinate in decimal form (deg)
 %
-%Created by Christopher Lum
-%lum@u.washington.edu
+%Christopher Lum
+%lum@uw.edu
 
-%Version History:   -04/10/08: Created
+%Version History
+%04/10/08: Created
+%01/14/24: Updated documentation
 
 %----------------------OBTAIN USER PREFERENCES-----------------------------
 switch nargin
@@ -29,7 +30,6 @@ switch nargin
     otherwise
         error('Invalid number of inputs');
 end
-
 
 %-----------------------CHECKING DATA FORMAT-------------------------------
 % DEGREES
@@ -62,7 +62,6 @@ if(SECONDS < 0)
         error('MINUTES can be negative only if DEGREES = 0 and MINUTES == 0')
     end
 end
-
 
 %-------------------------BEGIN CALCULATIONS-------------------------------
 if ((DEGREES < 0) || (MINUTES < 0) || (SECONDS < 0))
