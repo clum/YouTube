@@ -11,6 +11,7 @@
 %04/27/15: Nomenclature to match problem description
 %04/27/20: Updated for 2020
 %05/05/24: Fixed bug in xR (3rd component was inconsistent w/ problem def)
+%05/06/26: Minor update to note on frame for xm, ym, zm
 
 clear
 clc
@@ -44,9 +45,9 @@ A2 = zeros(6,6);
 
 %D. Weight tares
 W       = 2000;         %weight of model (N)
-xm      = 0.75;         %x position of cg w.r.t. BMC (m)
-ym      = 0.1;          %y position of cg w.r.t. BMC (m)
-zm      = -0.2;         %z position of cg w.r.t. BMC (m)
+xm      = 0.75;         %x position of cg w.r.t. BMC expressed in model/body frame (m)
+ym      = 0.1;          %y position of cg w.r.t. BMC expressed in model/body frame (m)
+zm      = -0.2;         %z position of cg w.r.t. BMC expressed in model/body frame (m)
 
 %E. Moment transfers
 s = 0.2;
@@ -78,12 +79,6 @@ dCMdds  = -0.2;     %change in pitching moment with a change in stabilizer angle
 
 %K. Axis transfers
 
-
-
-
-
-
-
 %----------------------------Data Reduction--------------------------------
 %A. Indicated to actual q
 %FILL IN HERE
@@ -95,7 +90,7 @@ dCMdds  = -0.2;     %change in pitching moment with a change in stabilizer angle
 %FILL IN HERE
 
 %D. Weight tares
-%FILL IN HERE
+%FILL IN HERE (Hint: call your code from problem 4 here)
 
 %E. Moment transfers
 %FILL IN HERE

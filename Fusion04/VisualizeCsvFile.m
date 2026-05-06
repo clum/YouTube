@@ -13,9 +13,9 @@ close all
 tic
 
 %% User selections
-csvFile = './csvExamples/simple2D.csv';                     %2D only
+% csvFile = './csvExamples/simple2D.csv';                     %2D only
 % csvFile = './csvExamples/simple3D.csv';                     %3 simple lines
-% csvFile = './csvExamples/sketcher_vr_BoxVaseFlowers.csv';   %table with flowers
+csvFile = './csvExamples/sketcher_vr_BoxVaseFlowers.csv';   %table with flowers
 % csvFile = './csvExamples/sketcher_vr_Simple.csv';           %random curve
 
 %% Import data
